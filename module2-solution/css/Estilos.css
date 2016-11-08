@@ -60,30 +60,6 @@ div.bottombox {
   margin: 20px;
 }
 
-/* #esquerda div div */
-.sectiontitle
-{
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-  background-color: lightgray;
-  color: black;
-  padding: 0px;
-  margin: 5px;
-  margin-bottom: 0;
-  text-align: right;
-
-}
-
-span
-{
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  font-size: 1.5em;
-
-}
-
-
 #pinkish
 {
   background-color: #e88499;
