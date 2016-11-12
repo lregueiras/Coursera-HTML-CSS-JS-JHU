@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Itim', cursive;
+  padding-top:100px;
+}
+
+h1{
+  padding-bottom: 20px;
+  }
+
+#titulo {
+  background-color: lightgrey;
+  color: black;
+  border: 1px solid black;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+#titulo p  {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+}
+
+/*
+.caixa {
+  clear: both;
+  padding: 5px 15px;
+  margin-top: 0;
+  height: 155px;
+  overflow: hidden;
+}*/
+
+.caixa {
+  box-sizing: border-box;
+  position:relative;
+  border: 1px solid black;
+  background-color: lightgray;
+  color: black;
+  padding: 0px;
+  margin: 10px;
+  text-align: left;
+
+}
+
+#pinkish
+{
+  background-color: #e88499;
+
+}
+
+#redish
+{
+  background-color: #a30000;
+  color:white;
+
+}
+
+#yellowish
+{
+  background-color: #e5c990;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+/*
+button.navbar-toggle  {
+
+  margin-bottom: 0;
+}*/
+
+.row {
+
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.bottombox {
+  clear: both;
+  padding: 10px 15px;
+  margin-top: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+/*
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+ End Header */
+}
